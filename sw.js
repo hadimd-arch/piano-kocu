@@ -1,5 +1,5 @@
 // Piyano Koçu service worker — ilk yüklemeden sonra tamamen çevrimdışı
-const V = "piyano-kocu-v29";
+const V = "piyano-kocu-v30";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(V).then((c) => c.addAll(ASSETS)).then(() => self.skipWaiting()));
