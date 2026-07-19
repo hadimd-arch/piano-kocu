@@ -1,5 +1,5 @@
 // Piyano Koçu SW — ağ öncelikli gezinme: güncellemeler otomatik, çevrimdışı yedekli
-const V = "piyano-kocu-v40";
+const V = "piyano-kocu-v41";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {
