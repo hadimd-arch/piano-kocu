@@ -1,7 +1,7 @@
 {
-  "name": "Piyano Koçu",
-  "short_name": "PiyanoKoçu",
-  "description": "ABRSM piyano pratik koçu — MIDI denetimli",
+  "name": "88 Keys — Piyano Koçu",
+  "short_name": "88 Keys",
+  "description": "88 Keys: ABRSM piyano pratik koçu — MIDI denetimli",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
@@ -9,7 +9,16 @@
   "background_color": "#151312",
   "theme_color": "#151312",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
   ]
 }

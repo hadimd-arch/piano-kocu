@@ -1,0 +1,20 @@
+PİYANO KOÇU — PWA KURULUMU (bir kez, ~10 dk, sonra tamamen çevrimdışı)
+
+1) github.com'da ücretsiz hesap aç (varsa atla).
+2) Sağ üst + → "New repository" → isim: piyano-kocu → Public → Create.
+3) "uploading an existing file" bağlantısına tıkla → bu klasördeki 5 dosyayı
+   sürükle-bırak (index.html, sw.js, manifest.webmanifest, icon-192.png,
+   icon-512.png) → Commit changes.
+4) Repo → Settings → Pages → Branch: main, klasör: / (root) → Save.
+   1-2 dk sonra adresin hazır: https://KULLANICIADIN.github.io/piyano-kocu/
+5) TABLETTE Chrome ile bu adresi aç → MIDI Lab → Piyanoya bağlan →
+   izin penceresi çıkar → İzin ver.
+6) Chrome menüsü (⋮) → "Ana ekrana ekle" → Yükle.
+   Artık ana ekranda kendi simgesiyle, tam ekran, Piano Marvel gibi açılır;
+   ilk yüklemeden sonra internet GEREKMEZ (service worker önbelleğe alır).
+
+GÜNCELLEME: Yeni sürüm çıktığında sadece index.html'i repoya yeniden yükle
+(aynı adla, üzerine yazar). Uygulamayı iki kez aç-kapa, yeni sürüm gelir.
+
+NOT: İlerleme verilerin bu adresin tarayıcı deposunda tutulur — hep aynı
+adresten (ya da ana ekran simgesinden) aç.
