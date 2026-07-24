@@ -1,5 +1,5 @@
 // 88 Keys SW — ağ öncelikli gezinme: güncellemeler otomatik, çevrimdışı yedekli
-const V = "keys88-v58";
+const V = "keys88-v59";
 const ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {
