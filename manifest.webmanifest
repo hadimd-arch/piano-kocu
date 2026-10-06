@@ -1,7 +1,7 @@
 {
-  "name": "88 Keys — Piyano Koçu",
+  "name": "88 Keys · Caz",
   "short_name": "88 Keys",
-  "description": "88 Keys: ABRSM piyano pratik koçu — MIDI denetimli",
+  "description": "88 Keys: ABRSM caz piyano ölçüm koçu, MIDI denetimli",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
